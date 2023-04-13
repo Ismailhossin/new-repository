@@ -1,0 +1,22 @@
+
+.container{
+    margin-bottom: 100px;
+}
+.slidein-bg{
+    background-color: #FEEAE9;
+    border-radius: 8px;   
+}
+.carousel-item{
+    padding: 10px 20px;
+}
+.carousel-item h2{
+    color: #C6005B;
+    font-size: 40px;
+}
+.carousel-item .bay-naw{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}

@@ -10,9 +10,101 @@
     <link rel="stylesheet" href="style.css">
     <!-- favicon -->
     <link rel="shortcut icon" href="imags/ure.png" type="image/x-icon">
-    <title>Document</title>
+    <title>Panda </title>
 </head>
 <body>
+
+    <!-- nav bar -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="imags/logo-2.png" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#shos">shos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#backpack">backpack</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </div>
+<!-- slide -->
+         
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide slidein-bg" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h1>Bangladeshi tv</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, hic!</p>
+                            <h2 class="price">$1200</h2>
+                            <button class="bay-naw">Bay naw</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="imags/tv.png" class="d-block w-100" alt="photo">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h1>Bangladeshi tv</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, hic!</p>
+                            <h2>$1200</h2>
+                            <button class="bay-naw">Bay naw</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="imags/headphone.png" class="d-block w-100" alt="photo">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h1>Bangladeshi tv</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, hic!</p>
+                            <h2>$1200</h2>
+                            <button class="bay-naw">Bay naw</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="imags/xbox.png" class="d-block w-100" alt="photo">
+                        </div>
+                </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button"         data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+    
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>       
+    </div>
    
     <script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.min.js"></script>
 </body>
